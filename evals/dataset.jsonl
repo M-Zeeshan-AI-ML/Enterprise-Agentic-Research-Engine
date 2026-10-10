@@ -1,0 +1,30 @@
+{"question": "Compare synthetic data generation approaches for healthcare AI development.", "expected_topics": ["privacy", "fidelity", "evaluation"]}
+{"question": "Compare RAG and fine-tuning for domain knowledge.", "expected_topics": ["retrieval", "fine-tuning", "maintenance"]}
+{"question": "Why are embeddings useful for semantic retrieval?", "expected_topics": ["embeddings", "similarity", "retrieval"]}
+{"question": "Compare PostgreSQL pgvector and a dedicated vector database.", "expected_topics": ["postgresql", "vector", "operations"]}
+{"question": "What guardrails should an enterprise research agent implement?", "expected_topics": ["validation", "authorization", "audit"]}
+{"question": "How does LangGraph persistence support resumable workflows?", "expected_topics": ["state", "checkpoint", "resume"]}
+{"question": "Compare human approval with autonomous tool execution.", "expected_topics": ["approval", "risk", "control"]}
+{"question": "What should be logged when tracing an LLM agent?", "expected_topics": ["latency", "errors", "tokens"]}
+{"question": "How should FastAPI protect authenticated research endpoints?", "expected_topics": ["jwt", "validation", "authorization"]}
+{"question": "What is the role of request IDs in observability?", "expected_topics": ["request id", "logging", "trace"]}
+{"question": "Compare Docker Compose and ECS Fargate.", "expected_topics": ["containers", "deployment", "aws"]}
+{"question": "What causes hallucination in RAG?", "expected_topics": ["grounding", "retrieval", "generation"]}
+{"question": "How can citations improve trust in research-agent answers?", "expected_topics": ["citations", "verification", "provenance"]}
+{"question": "What is top-k retrieval?", "expected_topics": ["top-k", "retrieval", "context"]}
+{"question": "Compare lexical and semantic search.", "expected_topics": ["lexical", "semantic", "embeddings"]}
+{"question": "What is prompt injection?", "expected_topics": ["prompt injection", "guardrails", "instructions"]}
+{"question": "Why avoid direct LLM-generated Python execution?", "expected_topics": ["arbitrary execution", "security", "sandbox"]}
+{"question": "How should tool schemas constrain agent calls?", "expected_topics": ["schema", "validation", "authorization"]}
+{"question": "Application persistence vs LangGraph checkpoint persistence?", "expected_topics": ["database", "checkpoint", "state"]}
+{"question": "What should a production readiness endpoint check?", "expected_topics": ["dependencies", "database", "health"]}
+{"question": "How does rate limiting reduce AI API abuse?", "expected_topics": ["rate limiting", "abuse", "resources"]}
+{"question": "Compare sync and async Python for I/O-heavy APIs.", "expected_topics": ["io", "async", "latency"]}
+{"question": "What belongs in an AI-agent execution record?", "expected_topics": ["status", "timestamps", "result"]}
+{"question": "How can evaluation distinguish grounded answers from hallucinations?", "expected_topics": ["faithfulness", "grounding", "evaluation"]}
+{"question": "What is context recall in RAG evaluation?", "expected_topics": ["context", "recall", "evaluation"]}
+{"question": "Why use realistic user questions in evaluation datasets?", "expected_topics": ["dataset", "realism", "coverage"]}
+{"question": "How can web research be restricted to approved domains?", "expected_topics": ["allowlist", "domains", "security"]}
+{"question": "What are benefits of RAG document metadata?", "expected_topics": ["metadata", "provenance", "filtering"]}
+{"question": "How should an agent handle an unavailable source?", "expected_topics": ["errors", "fallback", "verification"]}
+{"question": "What evidence supports a production-ready AI project claim?", "expected_topics": ["tests", "deployment", "observability"]}

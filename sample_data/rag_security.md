@@ -1,0 +1,2 @@
+# RAG and agent security
+RAG separates retrieval from generation: the retriever supplies passages and metadata, and the model uses them to formulate an answer. Retrieved content should be treated as untrusted data rather than executable instructions. Useful controls include input validation, prompt-injection detection, tool authorization, output validation, source citations, safe logging, and narrow typed tool interfaces. Arbitrary shell or Python execution should not be exposed directly to an LLM.

@@ -1,0 +1,2 @@
+# Synthetic data for AI development
+Synthetic data methods can be compared on statistical fidelity, downstream utility, privacy risk, representativeness, and cost. Healthcare use cases require validation against the intended task; synthetic data does not automatically guarantee privacy or regulatory compliance. Common families include copula-based methods, GAN-based methods, diffusion-style methods, and domain-specific generators.

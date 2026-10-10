@@ -1,0 +1,3 @@
+from fastapi.responses import HTMLResponse
+HTML='''<!doctype html><html><head><title>Enterprise Research Agent</title><style>body{font-family:system-ui;max-width:900px;margin:40px auto;padding:20px}textarea{width:100%;height:120px}button{padding:10px 18px}pre{white-space:pre-wrap}</style></head><body><h1>Enterprise Research & Decision Agent</h1><p>Engineering demo. Use the API token and endpoints for authenticated research.</p><textarea id="q" placeholder="Ask a research question..."></textarea><p><button onclick="run()">Submit</button></p><pre id="out"></pre><script>async function run(){document.getElementById('out').textContent='Use /docs to authenticate and call POST /api/v1/research.'}</script></body></html>'''
+def demo(): return HTMLResponse(HTML)
