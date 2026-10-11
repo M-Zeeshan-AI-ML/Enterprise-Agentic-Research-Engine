@@ -2,8 +2,6 @@
 
 Production-oriented portfolio project demonstrating LangGraph agent orchestration, typed tool calling, RAG, guardrails, human approval, persistent state, FastAPI, PostgreSQL, Docker, testing, evaluation, LangSmith compatibility, and an AWS deployment path.
 
-> **Accuracy note:** this repository contains implementations and tests, but it does not claim that AWS deployment or LangSmith evaluation has already been executed. Run them in your own environment before putting those claims on a CV.
-
 ## Workflow
 ```mermaid
 flowchart TD
@@ -166,5 +164,3 @@ See `docs/aws-deployment.md`. Target architecture: ECR → ECS/Fargate → RDS P
 ## Security limitations
 This portfolio implementation uses a demo username/password and JWT secret from environment variables. A real multi-tenant product should use an external identity provider, managed secrets, network isolation, stronger authorization, and security testing. No SOC 2/ISO/compliance claim is made.
 
-## Interview-ready explanation
-“I built a controlled research agent with LangGraph as the stateful orchestrator. It plans a question, selects typed tools, combines RAG and web research, verifies source-backed claims, and pauses for human approval before external research. PostgreSQL stores execution data and LangGraph checkpoints, FastAPI exposes the service, Docker packages it, and LangSmith can trace the graph. I also created a 30-question evaluation dataset and a reproducible evaluation runner without inventing scores.”
